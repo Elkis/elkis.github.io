@@ -3,11 +3,11 @@
 
 <head>
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
-    <link rel="shortcut icon" href="/images/ico/3.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/ico/3.png" type="image/x-icon">
     <title>Сайт-портфолио</title>
     <link href="https://fonts.googleapis.com/css?family=Poiret+One&amp;subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
-    <link rel="stylesheet" href="/css/main.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
@@ -32,46 +32,21 @@
     <div class="container_all">
         <header>
             <nav>
-                <a href="/index.html"><h1>Главная</h1></a>
-                <a href="/pages/portfolio.html"><h1>Портфолио</h1></a>
-                <a href="/pages/contact.html"><h1>Контакты</h1></a>
+                <a href="../index.html"><h1>Главная</h1></a>
+                <a href="portfolio.html"><h1>Портфолио</h1></a>
+                <a href="contact.html"><h1>Контакты</h1></a>
             </nav>
         </header>
         <div class="container">
             <div class="social_menu" align="center">
-                <a href="https://vk.com/alexeykhabibulin" style="meta_link"><img src="/images/mezhdunarodny.png" style="social_button"></a>
-                <a href="https://www.facebook.com/aleksei.khabibulin" style="meta_link"><img src="/images/facebook.png" style="social_button"></a>
-                <a href="https://twitter.com/khabibulin93" style="meta_link"><img src="/images/twitter.png" style="social_button"></a>
-                <a href="https://plus.google.com/105084747476852003171/about" style="meta_link"><img src="/images/googleplus.png" style="social_button"></a>
+                <a href="https://vk.com/alexeykhabibulin" style="meta_link"><img src="../images/mezhdunarodny.png" style="social_button"></a>
+                <a href="https://www.facebook.com/aleksei.khabibulin" style="meta_link"><img src="../images/facebook.png" style="social_button"></a>
+                <a href="https://twitter.com/khabibulin93" style="meta_link"><img src="../images/twitter.png" style="social_button"></a>
+                <a href="https://plus.google.com/105084747476852003171/about" style="meta_link"><img src="../images/googleplus.png" style="social_button"></a>
             </div>
-            <form method="POST" id="feedback-form">
-                Как к Вам обращаться:
-                <input type="text" name="nameFF" required placeholder="Иванов Иван Иванович" x-autocompletetype="name"> Email для связи:
-                <input type="email" name="contactFF" required placeholder="example@mail.com" x-autocompletetype="email"> Ваше сообщение:
-                <textarea name="messageFF" required placeholder="Ваш текст сообщения" rows="5"></textarea>
-                <!--<div class="g-recaptcha" data-sitekey="6Lcp3QUTAAAAAKgHloVEgEbaLTCGdZiYV3ZYeZQc"></div>
-                <br/>-->
-                <input type="submit" value="Отправить">
-            </form>
-            <script>
-            document.getElementById('feedback-form').onsubmit = function() {
-                var http = new XMLHttpRequest();
-                http.open("POST", "/pages/php/contacts.php", true);
-                http.send("nameFF=" + this.nameFF.value + "&contactFF=" + this.contactFF.value + "&messageFF=" + this.messageFF.value);
-                http.onreadystatechange = function() {
-                    if (http.readyState == 4 && http.status == 200) {
-                        alert(http.responseText + ', Ваше сообщение отправлено');
-                    }
-                }
-                http.onerror = function() {
-                    alert('Извините, данные не были переданы');
-                }
-                return false;
-            }
-            </script>
         </div>
         <div class="footer">
-            <p>&copy;2015 Алексей Хабибулин</p>
+            <p>&copy;2017 Алексей Хабибулин</p>
         </div>
     </div>
 </body>
