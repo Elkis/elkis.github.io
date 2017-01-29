@@ -45,9 +45,14 @@
             </div>
         </div>
         <div class="footer">
-            <p>&copy;2017 Алексей Хабибулин</p>
+            <p>&copy;Алексей Хабибулин</p><p id="year"></p>
         </div>
     </div>
+    <script>
+        var d = new Date();
+        var y = d.getFullYear();
+        document.getElementById("year").innerHTML = y;
+        </script>
 </body>
 
 </html>

@@ -30,21 +30,21 @@
     <div class="group">
         <div class="single-pen">
             <a href="http://www.софия-кондитерская.рф/" class="meta_link"></a>
-                <iframe src="http://www.софия-кондитерская.рф/" scrolling="no" frameborder="0" width="100%" height="500px"></iframe>
+                <img src="../images/sofiabakery.PNG" alt="" class="img-pen">
                 <div class="meta">
                     <p>Сайт кондитерской "София"</p>
                 </div>
         </div>
         <div class="single-pen">
             <a href="http://www.земля-юга.рф/" class="meta_link"></a>
-                <iframe src="http://www.земля-юга.рф/" scrolling="no" frameborder="0" width="100%" height="500px"></iframe>
+                <img src="../images/southland.PNG" alt="" class="img-pen">
                 <div class="meta">
                     <p>Сайт компании Земля-Юга.РФ</p>
                 </div>
         </div>
         <div class="single-pen">
             <a href="http://www.геотехпроект.рф/" class="meta_link"></a>
-                <iframe src="http://www.геотехпроект.рф/" frameborder="0" width="100%" height="500px">ГеоТехПроект</iframe>
+                <img src="../images/gtp.PNG" alt="" class="img-pen">
                 <div class="meta">
                     <p>Сайт компании ГеоТехПроект</p>
                 </div>
@@ -52,8 +52,13 @@
     </div>
 </div>
 <div class="footer">
-    <p>&copy;2017 Алексей Хабибулин</p>
+    <p>&copy;Алексей Хабибулин</p><p id="year"></p>
 </div>
 </div>
+<script>
+        var d = new Date();
+        var y = d.getFullYear();
+        document.getElementById("year").innerHTML = y;
+        </script>
 </body>
 </html>
