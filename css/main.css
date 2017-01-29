@@ -97,6 +97,11 @@ header nav a h1{
   overflow: hidden;
 }
 
+.git-img{
+    width: 50%;
+    padding: 1% 25%;
+}
+
 .img-pen{
     width: 100%;
 }
