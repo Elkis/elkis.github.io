@@ -101,6 +101,11 @@ header nav a h1{
     width: 100%;
 }
 
+.info{
+    font-size: 2vw;
+    padding: 3%;
+}
+
 .meta_link{
     text-decoration: none;
     position: absolute;
