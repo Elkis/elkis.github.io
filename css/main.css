@@ -10,17 +10,21 @@ body {
     text-transform: uppercase;
     vertical-align: middle;
 }
+
 .container_all {
     width: 65%;
     margin: auto;
 }
-.container_portfolio{
+
+.container_portfolio {
     width: 80%;
     margin: 0 auto;
 }
+
 a {
     text-decoration: none;
 }
+
 header {
     padding: 3% 0;
     text-align: center;
@@ -28,11 +32,13 @@ header {
     background: #2c3e50;
     border-bottom: 2px dotted #ecf0f1;
 }
+
 header nav {
     width: 100%;
     display: inline-block;
     text-align: center;
 }
+
 header nav a {
     color: #ecf0f1;
     text-decoration: none;
@@ -43,18 +49,22 @@ header nav a {
     display: inline-block;
     position: relative;
 }
-header nav a h1{
+
+header nav a h1 {
     padding: 5% 0;
-    font-size: 2.3vw;
+    font-size: 2.6vw;
 }
+
 .container {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
     color: #ecf0f1;
-    top: 0;
     padding: 3% 10%;
     background: #2c3e50;
     margin: 0 auto;
     border-bottom: 2px dotted #ecf0f1;
 }
+
 .footer {
     color: #ecf0f1;
     background: #2c3e50;
@@ -63,6 +73,7 @@ header nav a h1{
     font-size: 1.8vw;
     text-align: center;
 }
+
 .enjoy-css {
     display: inline;
     -webkit-box-sizing: content-box;
@@ -74,44 +85,62 @@ header nav a h1{
     border: none;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    font-family: Mono,serif;
+    font-family: Mono, serif;
     color: #fff;
     text-align: center;
     -o-text-overflow: clip;
     text-overflow: clip;
     background: #16a085;
-    -webkit-box-shadow: 2px 3px 3px 2px rgba(0,0,0,.2);
-}
-.group:before, .group:after {
-  content: "";
-  display: table;
-}
-.group:after {
-  clear: both;
-}
-.single-pen {
-  float: left;
-  margin: 0 2% 25px 0;
-  position: relative;
-  width: 30%;
-  overflow: hidden;
+    -webkit-box-shadow: 2px 3px 3px 2px rgba(0, 0, 0, .2);
 }
 
-.git-img{
+.divider {
+    width: 70%;
+    height: 1px;
+    margin-left: 15%;
+    margin-top: 13px;
+    margin-bottom: 12px;
+    background-color: #dbdbdb;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group-info {
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.single-pen {
+    float: left;
+    margin: 0 2% 25px 0;
+    position: relative;
+    width: 30%;
+    overflow: hidden;
+}
+
+.git-img {
     width: 50%;
     padding: 1% 25%;
 }
 
-.img-pen{
+.img-pen {
     width: 100%;
 }
 
-.info{
-    font-size: 2vw;
+.info {
+    font-size: 1.5vw;
     padding: 3%;
 }
 
-.meta_link{
+.meta_link {
     text-decoration: none;
     position: absolute;
     top: 0;
@@ -121,6 +150,7 @@ header nav a h1{
     border: 0 !important;
     z-index: 4000;
 }
+
 .meta {
     padding: 20px 0;
     text-align: center;
@@ -129,14 +159,18 @@ header nav a h1{
     position: relative;
     font-size: 1.3vw;
 }
+
 div.social_menu a img {
     width: 10%;
     padding-left: 20px;
 }
+
 .head {
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.3vw;
+    padding-bottom: 5%;
 }
+
 .social_button {
     display: block !important;
 }
