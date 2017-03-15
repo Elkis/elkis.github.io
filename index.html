@@ -2,11 +2,11 @@
 <html>
 
 <head>
-    <meta name="keywords" content="HTML, CSS, Python, JS, MySQL, Сайт-портфолио, начинающий программист, программист, начинающий, Алексей, Хабибулин, Алексей Хабибулин">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="HTML, CSS, Python, JS, MySQL, Сайт-портфолио, начинающий программист, программист, начинающий, Алексей, Хабибулин, Алексей Хабибулин, портфолио,  работы">
     <link rel="shortcut icon" href="images/ico/1.png" type="image/x-icon">
     <title>Сайт-портфолио</title>
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One&amp;subset=cyrillic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
 
@@ -18,7 +18,7 @@
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date();
             a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
+            m = s.getElementsByTagName(o)[0];
             a.async = 1;
             a.src = g;
             m.parentNode.insertBefore(a, m)
@@ -48,6 +48,8 @@
                 <p> Хорошо знаю: HTML, CSS.</p>
                 <p>Постигаю: JS, SQL, Python.</p>
             </div>
+            <div class="work">Мои работы</div>
+            <div class="sites">
             <div class="group">
                 <h1 class="group-info">Разработка сайтов</h1>
                 <div class="divider"></div>
@@ -73,23 +75,26 @@
                     </div>
                 </div>
             </div>
-            <h1 class="group-info">Программирование</h1>
-            <div class="divider"></div>
-            <div>
-                <a href="https://gitlab.com/users/khabibulin93/projects" class="metalink">
-                    <img src="images/277d9badcbd723e913b3a41e64e8d2f3d2c80598.png" class="git-img" alt="GitLab"></a>
+            </div>
+            <div class="programm">
+                <h1 class="group-info">Программирование</h1>
+                <div class="divider"></div>
+                <div>
+                    <a href="https://gitlab.com/users/khabibulin93/projects" class="metalink">
+                        <img src="images/277d9badcbd723e913b3a41e64e8d2f3d2c80598.png" class="git-img" alt="GitLab"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>&copy;Алексей Хабибулин</p>
+                <p id="year"></p>
             </div>
         </div>
-        <div class="footer">
-            <p>&copy;Алексей Хабибулин</p>
-            <p id="year"></p>
-        </div>
-    </div>
-    <script>
-        var d = new Date();
-        var y = d.getFullYear();
-        document.getElementById("year").innerHTML = y;
-    </script>
-</body>
+        <script>
+            var d = new Date();
+            var y = d.getFullYear();
+            document.getElementById("year").innerHTML = y;
+        </script>
+    </body>
 
-</html>
+    </html>
