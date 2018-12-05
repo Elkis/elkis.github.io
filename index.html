@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="keywords" content="HTML, CSS, Python, JS, MySQL, Сайт-портфолио, начинающий программист, программист, начинающий, Алексей, Хабибулин, Алексей Хабибулин, портфолио,  работы">
@@ -9,87 +8,65 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
-
 <body>
-    <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-46170443-2', 'auto');
-        ga('send', 'pageview');
-    </script>
-
-    <div class="container_all">
-        <header>
-            <nav>
-                <a href="index.html">
-                    <h1>Главная</h1>
-                </a>
-                <a href="pages/contact.html">
-                    <h1>Контакты</h1>
-                </a>
-            </nav>
-        </header>
-        <div class="container">
-            <div class="head">
-                <h1>Приветствую!</h1>
-                <div class="divider"></div>
-                <p>Я Алексей Хабибулин, и это мой сайт-портфолио</p>
-                <p>Я начинающий программист</p>
-                <p> Хорошо знаю: HTML, CSS.</p>
-                <p>Постигаю: JS, SQL, Python.</p>
-            </div>
-            <div class="work">Мои работы</div>
-            <div class="sites">
-                    <h1 class="group-info">Разработка сайтов</h1>
-                    <div class="divider"></div>
-            <div class="group">
-                <div class="single-pen">
-                    <a href="http://земля-юга.рф/" class="meta_link">
-                    <img src="images/southland.PNG" alt="" class="img-pen">
-                    <div class="meta">
-                        <p>Сайт компании Земля-Юга.РФ</p>
-                    </div>
-                </a>
-                </div>
-                <div class="single-pen">
-                    <a href="http://геотехпроект.рф/" class="meta_link">
-                    <img src="images/gtp.PNG" alt="" class="img-pen">
-                    <div class="meta">
-                        <p>Сайт компании ГеоТехПроект</p>
-                    </div>
-                </div>
-            </a>
-            </div>
-            </div>
-            <div class="programm">
+<div class="flexrow">
+    <div class="infoblock">
+        <div class="head">
+            <h1>Приветствую!</h1>
+            <div class="divider"></div>
+            <p>Я Алексей Хабибулин, и это мой сайт-портфолио</p>
+        </div>
+        <div class="social_menu">
+            <p class="info">Со мной вы можете связаться через социальные сети:</p>
+            <a href="https://vk.com/alexeykhabibulin" style="meta_link"><img src="images/mezhdunarodny.png" class="social_button"></a>
+            <a href="https://www.facebook.com/aleksei.khabibulin" style="meta_link"><img src="images/facebook.png" class="social_button"></a>
+            <a href="https://twitter.com/khabibulin93" style="meta_link"><img src="images/twitter.png" class="social_button"></a>
+            <a href="https://plus.google.com/105084747476852003171/about" style="meta_link"><img src="images/googleplus.png" class="social_button"></a>
+            <p class="info">Либо написав на email: khabibulin93@gmail.com</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="work">Мои работы</div>
+        <div class="programm">
                 <h1 class="group-info">Программирование</h1>
                 <div class="divider"></div>
                 <div>
                     <a href="https://gitlab.com/users/khabibulin93/projects" class="metalink">
-                        <img src="images/277d9badcbd723e913b3a41e64e8d2f3d2c80598.png" class="git-img" alt="GitLab"></a>
+                        <img src="images/277d9badcbd723e913b3a41e64e8d2f3d2c80598.png" class="img-pen-git" alt="GitLab"></a>
                     </div>
+        </div>
+        <div class="sites">
+            <h1 class="group-info">Разработка сайтов</h1>
+            <div class="divider"></div>
+            <div class="group">
+                <div class="second-pen">
+                    <a href="http://земля-юга.рф/" class="meta_link">
+                        <img src="images/southland.PNG" alt="" class="img-pen">
+                        <div class="meta">
+                            <p>Сайт компании Земля-Юга.РФ</p>
+                        </div>
+                    </a>
                 </div>
-            </div>
-            <div class="footer">
-                <p>&copy;Алексей Хабибулин</p>
-                <p id="year"></p>
+                <div class="second-pen">
+                    <a href="http://геотехпроект.рф/" class="meta_link">
+                        <img src="images/gtp.PNG" alt="" class="img-pen">
+                        <div class="meta">
+                            <p>Сайт компании ГеоТехПроект</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
-        <script>
-            var d = new Date();
-            var y = d.getFullYear();
-            document.getElementById("year").innerHTML = y;
-        </script>
-    </body>
-
-    </html>
+    </div>
+</div>
+    <div class="footer">
+        <p>&copy;Алексей Хабибулин</p>
+        <p id="year"></p>
+    </div>
+    <script>
+        var d = new Date();
+        var y = d.getFullYear();
+        document.getElementById("year").innerHTML = y;
+    </script>
+</body>
+</html>
